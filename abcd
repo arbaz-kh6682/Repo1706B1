@@ -9,7 +9,7 @@ function validate() {
         $("p").append("Some appended text.");
     }
     if ($('#Age').val().trim() == "") {
-        $('#Age').css('border-color', 'Red');
+        $('#Age').css('border-color', 'Blue');
         isValid = false;
     }
     else {
